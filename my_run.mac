@@ -1,0 +1,25 @@
+# --- 1. SETUP ---
+/run/initialize
+/vis/open OGLSWin32
+/vis/drawVolume
+/vis/viewer/set/viewpointThetaPhi 90 0
+
+# --- 2. STYLE & COLORS ---
+/vis/geometry/set/visibility World 0 false
+/vis/geometry/set/colour Phantom 0 1 0 0 0.3
+/vis/geometry/set/colour Crystal 0 0 0 1 0.4
+/vis/viewer/set/style surface
+
+# --- 3. PARTICLES ---
+/vis/scene/add/trajectories smooth
+/vis/modeling/trajectories/create/drawByParticleID
+/vis/modeling/trajectories/drawByParticleID-0/set gamma green
+/vis/modeling/trajectories/select drawByParticleID-0
+
+# --- 4. THE FIX IS HERE ---
+# "accumulate" by itself defaults to 100. 
+# We must change it to 20000 (or higher) to keep all tracks.
+/vis/scene/endOfEventAction accumulate 10000
+
+# --- 5. RUN ---
+/run/beamOn 10000

@@ -1,0 +1,14 @@
+# --- 1. INITIALIZE ---
+/run/initialize
+
+# --- 2. PHYSICS ---
+/gun/particle gamma
+/gun/energy 511 keV
+
+# --- 3. AIM THE GUN (The Fix) ---
+# Default is (0 0 1) which shoots through the hole.
+# Change to (0 1 0) to shoot UP towards the top crystal.
+/gun/direction 0 1 0
+
+# --- 4. RUN ---
+/run/beamOn 10000
