@@ -3,7 +3,7 @@
 A high-fidelity Geant4 simulation of a Positron Emission Tomography (PET) detector ring. This project simulates the interaction of 511 keV gamma rays with Lutetium Oxyorthosilicate (LSO) crystals, featuring 3D visualization and energy spectrum analysis to verify detector physics.
 
 ![Detector Visualization] https://github.com/Sajid-svg27/Building-a-PET-Scanner-via-Geant4/blob/main/Detector_Geometry.png?raw=true
-*(Replace with your 3D visualization screenshot)*
+
 
 ## 🚀 Key Features
 * **Custom Geometry:** Detailed simulation of a PET scanner ring composed of LSO crystals ($Z=71$, density 7.4 g/cm³).
@@ -19,10 +19,8 @@ A high-fidelity Geant4 simulation of a Positron Emission Tomography (PET) detect
 * **Python 3.x** (with `matplotlib` and `pandas` for plotting)
 
 ## 📦 Installation & Build
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-    ```
+
+    
 2.  **Create a build directory:**
     ```bash
     mkdir build
@@ -69,8 +67,8 @@ The simulation successfully reconstructs the energy deposition spectrum for LSO.
 * **Photoelectric Peak:** Clearly visible at **0.511 MeV**, confirming total energy absorption in the crystals.
 * **Compton Continuum:** Low-energy scattering events caused by interactions with the water phantom and partial energy deposition.
 
-![Energy Spectrum](path/to/your/image_4b6ecd.png)
-*(Replace with your final green spectrum plot)*
+![Energy Spectrum]https://github.com/Sajid-svg27/Building-a-PET-Scanner-via-Geant4/blob/main/PET_Energy_Spectrum.png?raw=true
+
 
 ## 📂 Project Structure
 * **`DetectorConstruction.cc`**: Defines the LSO material and Ring Geometry.
