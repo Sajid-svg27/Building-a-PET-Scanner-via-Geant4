@@ -2,7 +2,7 @@
 
 A high-fidelity Geant4 simulation of a Positron Emission Tomography (PET) detector ring. This project simulates the interaction of 511 keV gamma rays with Lutetium Oxyorthosilicate (LSO) crystals, featuring 3D visualization and energy spectrum analysis to verify detector physics.
 
-![Detector Visualization] Detector_Geometry.png 
+![Detector Visualization] https://github.com/Sajid-svg27/Building-a-PET-Scanner-via-Geant4/blob/main/Detector_Geometry.png?raw=true
 *(Replace with your 3D visualization screenshot)*
 
 ## 🚀 Key Features
